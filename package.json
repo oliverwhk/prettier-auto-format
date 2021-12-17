@@ -4,7 +4,8 @@
   "description": "Test content. \r \tdescription",
   "main": "index.js",
   "scripts": {
-    "lint:format": "prettier --write \"./**/*.{js,jsx,ts,tsx,json,yml,yaml,css,scss,md,mdx,html}\""
+    "lint:format": "prettier --write \"./**/*.{js,jsx,ts,tsx,json,yml,yaml,css,scss,md,mdx,html}\"",
+    "prepare": "husky install"
   },
   "lint-staged": {
     "./**/*.{js,jsx,ts,tsx,json,yml,yaml,css,scss,md,mdx,html}": "prettier --write"
