@@ -1,0 +1,19 @@
+{
+  "name": "prettier-auto-format",
+  "version": "1.0.0",
+  "description": "Test content. \r \tdescription",
+  "main": "index.js",
+  "scripts": {
+    "lint:format": "prettier --write \"./**/*.{js,jsx,ts,tsx,json,yml,yaml,css,scss,md,mdx,html}\"",
+      "lint-staged": {
+        "./**/*.{js,jsx,ts,tsx,json,yml,yaml,css,scss,md,mdx,html}": "prettier --write"
+      },
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^7.0.4",
+    "lint-staged": "^12.1.2",
+    "prettier": "^2.5.1"
+  }
+}
