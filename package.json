@@ -4,10 +4,10 @@
   "description": "Test content. \r \tdescription",
   "main": "index.js",
   "scripts": {
-    "lint:format": "prettier --write \"./**/*.{js,jsx,ts,tsx,json,yml,yaml,css,scss,md,mdx,html}\"",
-      "lint-staged": {
-        "./**/*.{js,jsx,ts,tsx,json,yml,yaml,css,scss,md,mdx,html}": "prettier --write"
-      },
+    "lint:format": "prettier --write \"./**/*.{js,jsx,ts,tsx,json,yml,yaml,css,scss,md,mdx,html}\""
+  },
+  "lint-staged": {
+    "./**/*.{js,jsx,ts,tsx,json,yml,yaml,css,scss,md,mdx,html}": "prettier --write"
   },
   "author": "",
   "license": "ISC",
